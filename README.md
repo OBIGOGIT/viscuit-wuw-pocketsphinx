@@ -51,6 +51,13 @@ After everything is set, run `./gradlew build`. It will create
 pocketsphinx-android-5prealpha-release.aar and
 pocketsphinx-android-5prealpha-debug.aar in build/output.
 
+### Notes: *viscuit-wuw-pocketsphinx* Build
+```
+sphinxbase source: branch "master" (commit: 617e536 David Huggins-Daines 2022. 6. 9. 오후 8:34)
+pocketsphinx source: tag "last-pre-1.0" (commit: 5da71f0a Kevin Lenzo 2022. 2. 22. 오후 11:23)
+pocketsphinx-android source: branch "master"
+```
+
 Using the library
 =================
 

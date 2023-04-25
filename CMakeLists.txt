@@ -2,6 +2,9 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
+get_filename_component(PROJECT_NAME ${CMAKE_SOURCE_DIR} NAME)
+project(${PROJECT_NAME})
+
 set(SPHINXBASE_SRC ${SPHINXBASE_DIR}/src/libsphinxbase)
 set(POCKETSPHINX_SRC ${POCKETSPHINX_DIR}/src/libpocketsphinx)
 

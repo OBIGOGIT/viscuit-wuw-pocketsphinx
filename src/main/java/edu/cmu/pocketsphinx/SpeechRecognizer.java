@@ -37,6 +37,7 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.HashSet;
 
+import android.annotation.SuppressLint;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder.AudioSource;
@@ -75,6 +76,7 @@ public class SpeechRecognizer {
      * @param config The configuration object
      * @throws IOException thrown if audio recorder can not be created for some reason.
      */
+    @SuppressLint("MissingPermission")
     protected SpeechRecognizer(Config config) throws IOException {
         decoder = new Decoder(config);
         sampleRate = (int)decoder.getConfig().getFloat("-samprate");
