@@ -1,0 +1,15 @@
+ext {
+    PUBLISH_GROUP_ID = 'com.obigo.viscuit'
+    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_ARTIFACT_ID = 'viscuit-wuw-pocketsphinx'
+    PUBLISH_DESCRIPTION = 'This library is Pocketsphinx for Android, which provides a high-level interface for recognizing microphone input.'
+    PUBLISH_URL = 'https://github.com/OBIGOGIT/viscuit-wuw-pocketsphinx'
+    PUBLISH_LICENSE_NAME = 'BSD-2-Clause license'
+    PUBLISH_LICENSE_URL = 'https://github.com/OBIGOGIT/viscuit-wuw-pocketsphinx/blob/master/LICENSE'
+    PUBLISH_DEVELOPER_ID = 'leokang97'
+    PUBLISH_DEVELOPER_NAME = 'Leo Kang'
+    PUBLISH_DEVELOPER_EMAIL = 'obigornd@obigo.com'
+    PUBLISH_SCM_CONNECTION = 'scm:git:github.com/OBIGOGIT/viscuit-wuw-pocketsphinx.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION = 'scm:git:ssh://github.com:OBIGOGIT/viscuit-wuw-pocketsphinx.git'
+    PUBLISH_SCM_URL = 'https://github.com/OBIGOGIT/viscuit-wuw-pocketsphinx'
+}
